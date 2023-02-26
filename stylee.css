@@ -1,0 +1,27 @@
+
+@keyframes backGroundAnimation{
+    from{background-color: rgb(255, 0, 0);}
+    10%{background-color: rgb(255, 71, 46);}
+    20%{background-color: rgb(255, 97, 61);}
+    30%{background-color: rgb(255, 169, 56);}
+    40%{background-color: rgb(255, 162, 41);}
+    50%{background-color: rgb(255, 241, 47);}
+    60%{background-color: rgb(255, 251, 0);}
+    70%{background-color: rgb(157, 255, 0);}
+    80%{background-color: rgb(0, 255, 187);}
+    90%{background-color: rgb(0, 0, 255);}
+    to{background-color: rgb(255, 0, 0);}
+}
+body{
+    animation-duration: 45s ;
+    animation-name: backGroundAnimation;
+    animation-iteration-count: infinite;
+}
+.School{
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 500px;
+    background-color: rgb(154, 154, 154);
+    border: 5px solid blue;
+    border-radius: 20px;
+}
